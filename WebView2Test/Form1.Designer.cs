@@ -51,14 +51,14 @@ namespace WebView2Test
             this.wv2.DefaultBackgroundColor = System.Drawing.Color.White;
             this.wv2.Location = new System.Drawing.Point(0, 0);
             this.wv2.Name = "wv2";
-            this.wv2.Size = new System.Drawing.Size(845, 379);
+            this.wv2.Size = new System.Drawing.Size(1119, 478);
             this.wv2.Source = new System.Uri("https://www.vg.no", System.UriKind.Absolute);
             this.wv2.TabIndex = 0;
             this.wv2.ZoomFactor = 1D;
             // 
             // tbShowNRKIllustration
             // 
-            this.tbShowNRKIllustration.Location = new System.Drawing.Point(12, 462);
+            this.tbShowNRKIllustration.Location = new System.Drawing.Point(12, 578);
             this.tbShowNRKIllustration.Name = "tbShowNRKIllustration";
             this.tbShowNRKIllustration.Size = new System.Drawing.Size(334, 20);
             this.tbShowNRKIllustration.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace WebView2Test
             // 
             // tbShowNRKIllustrationFocus
             // 
-            this.tbShowNRKIllustrationFocus.Location = new System.Drawing.Point(12, 505);
+            this.tbShowNRKIllustrationFocus.Location = new System.Drawing.Point(12, 621);
             this.tbShowNRKIllustrationFocus.Name = "tbShowNRKIllustrationFocus";
             this.tbShowNRKIllustrationFocus.Size = new System.Drawing.Size(334, 20);
             this.tbShowNRKIllustrationFocus.TabIndex = 2;
@@ -75,7 +75,7 @@ namespace WebView2Test
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 446);
+            this.label1.Location = new System.Drawing.Point(14, 562);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 13);
             this.label1.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace WebView2Test
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 489);
+            this.label2.Location = new System.Drawing.Point(15, 605);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 13);
             this.label2.TabIndex = 4;
@@ -92,7 +92,7 @@ namespace WebView2Test
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 555);
+            this.textBox1.Location = new System.Drawing.Point(12, 671);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(334, 20);
             this.textBox1.TabIndex = 5;
@@ -101,7 +101,7 @@ namespace WebView2Test
             // tbEditorInfo
             // 
             this.tbEditorInfo.AutoSize = true;
-            this.tbEditorInfo.Location = new System.Drawing.Point(15, 539);
+            this.tbEditorInfo.Location = new System.Drawing.Point(15, 655);
             this.tbEditorInfo.Name = "tbEditorInfo";
             this.tbEditorInfo.Size = new System.Drawing.Size(51, 13);
             this.tbEditorInfo.TabIndex = 6;
@@ -110,16 +110,16 @@ namespace WebView2Test
             // 
             // tbUrl
             // 
-            this.tbUrl.Location = new System.Drawing.Point(12, 405);
+            this.tbUrl.Location = new System.Drawing.Point(12, 521);
             this.tbUrl.Name = "tbUrl";
             this.tbUrl.Size = new System.Drawing.Size(334, 20);
             this.tbUrl.TabIndex = 7;
-            this.tbUrl.Text = "http://madigasweb02/bildebanken/index.html";
+            this.tbUrl.Text = "https://madigasdpe03:9443/index-bildebanken.html";
             // 
             // lblUrl
             // 
             this.lblUrl.AutoSize = true;
-            this.lblUrl.Location = new System.Drawing.Point(12, 382);
+            this.lblUrl.Location = new System.Drawing.Point(12, 498);
             this.lblUrl.Name = "lblUrl";
             this.lblUrl.Size = new System.Drawing.Size(18, 13);
             this.lblUrl.TabIndex = 8;
@@ -127,7 +127,7 @@ namespace WebView2Test
             // 
             // btnRun
             // 
-            this.btnRun.Location = new System.Drawing.Point(352, 403);
+            this.btnRun.Location = new System.Drawing.Point(352, 519);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(109, 23);
             this.btnRun.TabIndex = 9;
@@ -137,7 +137,7 @@ namespace WebView2Test
             // 
             // btnRun2
             // 
-            this.btnRun2.Location = new System.Drawing.Point(352, 462);
+            this.btnRun2.Location = new System.Drawing.Point(352, 578);
             this.btnRun2.Name = "btnRun2";
             this.btnRun2.Size = new System.Drawing.Size(109, 23);
             this.btnRun2.TabIndex = 10;
@@ -147,7 +147,7 @@ namespace WebView2Test
             // 
             // tbKaleidoUrl
             // 
-            this.tbKaleidoUrl.Location = new System.Drawing.Point(12, 600);
+            this.tbKaleidoUrl.Location = new System.Drawing.Point(12, 716);
             this.tbKaleidoUrl.Name = "tbKaleidoUrl";
             this.tbKaleidoUrl.Size = new System.Drawing.Size(334, 20);
             this.tbKaleidoUrl.TabIndex = 11;
@@ -157,7 +157,7 @@ namespace WebView2Test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 702);
+            this.ClientSize = new System.Drawing.Size(1131, 813);
             this.Controls.Add(this.tbKaleidoUrl);
             this.Controls.Add(this.btnRun2);
             this.Controls.Add(this.btnRun);
@@ -171,7 +171,7 @@ namespace WebView2Test
             this.Controls.Add(this.tbShowNRKIllustration);
             this.Controls.Add(this.wv2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Testapplikasjon for Bildebanken";
             ((System.ComponentModel.ISupportInitialize)(this.wv2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
